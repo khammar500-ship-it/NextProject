@@ -1,0 +1,26 @@
+@import "tailwindcss";
+button{
+ cursor: pointer;
+}
+:root{
+    --color-Orange-90:#FFDECC;
+    --color-Grey-15: #262626;
+    --color-Orang-65: #FF8D4D;
+    --color-Orange-75: #FFAE80;
+    --color-Orange-95 : #FFEFE5;
+    --color-Orange-97 :#FFF5F0;
+    --color-Orange-80 :#FFBE99;
+    --color-Grey-30:#4C4C4D;
+    --color-Grey-20:#333333;
+}
+@theme {
+    --color-Orange-90 :var(--color-Orange-90);
+    --color-Grey-15:var(--color-Grey-15);
+    --color-Orang-65:var(--color-Orang-65);
+    --color-Orange-75:var(--color-Orange-75);
+    --color-Orange-95:var(--color-Orange-95);
+    --color-Orange-97:var(--color-Orange-97);
+    --color-Orange-80:var(--color-Orange-80);
+    --color-Grey-30:var(--color--Grey-30);
+    --color-Grey-20:var(--color-Grey-20);
+}
