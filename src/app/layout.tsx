@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import InAppRedirect from "./InAppRedirect";
 import "./globals.css";
 import Nav from "./component/Nav";
 import Footer from "./component/Footer";
@@ -25,6 +25,7 @@ export default function RootLayout({
       className={`${outfit.className} h-full antialiased`}
     >
       <body className="px-12.5 pt-4.5  max-[640px]:px-1.25 bg-Orange-97">
+        <InAppRedirect/>
         <NavTop/>
         <Nav/>
         {children}
