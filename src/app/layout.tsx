@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import InAppRedirect from "./InAppRedirect";
 import "./globals.css";
 import Nav from "./component/Nav";
 import Footer from "./component/Footer";
