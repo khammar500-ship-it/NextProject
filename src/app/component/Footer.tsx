@@ -45,13 +45,13 @@ function Footer() {
           </div>
         </div>
         <div className='col-span-2 flex flex-col gap-[14]  max-[1400]:col-span-3 max-[1000]:col-span-6 max-[550]:col-span-12  max-[550]:mb-10'>
-          <div className="text-[20px] whitespace-nowrap mb-[10]"><Link href="/" onClick={() => { window.scrollTo({ top: 0/*,behavior:"smooth"*/ }) }}>Home</Link></div>
+          <div className="text-[20px] font-bold whitespace-nowrap mb-[10]"><Link href="/" onClick={() => { window.scrollTo({ top: 0/*,behavior:"smooth"*/ }) }}>Home</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20"><Link href="/#Features">Features</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20"><Link href="/#OurTestimonials">Our Testimonials</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20"><Link href="/#FAQ">FAQ</Link></div>
         </div>
         <div className='col-span-2 flex flex-col gap-[14]  max-[1400]:col-span-3 max-[1000]:col-span-6 max-[550]:col-span-12'>
-          <div className="text-[20px] whitespace-nowrap  mb-[10]"><Link href="/about" onClick={() => { window.scrollTo({ top: 0 }) }}>About Us</Link></div>
+          <div className="text-[20px] font-bold whitespace-nowrap  mb-[10]"><Link href="/about" onClick={() => { window.scrollTo({ top: 0 }) }}>About Us</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/about/#OurMission&Visions">Our Mission</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/about/#OurMission&Visions">Our Vission</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/about/#Awards&Recognitions">Awards & Recognitions</Link></div>
@@ -59,12 +59,12 @@ function Footer() {
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/about/#OurTean">Teachers</Link></div>
         </div>
         <div className='col-span-2 flex flex-col gap-[14]  max-[1400]:col-span-3 max-[1000]:col-span-6 max-[1000]:mt-10 max-[550]:col-span-12'>
-          <div className="text-[20px] whitespace-nowrap  mb-[10]"><Link href="/academics" onClick={() => { window.scrollTo({ top: 0 }) }}>Academics</Link></div>
+          <div className="text-[20px] font-bold whitespace-nowrap  mb-[10]"><Link href="/academics" onClick={() => { window.scrollTo({ top: 0 }) }}>Academics</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/academics/#OurSpecialFeatures">Special Features</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/academics/#Gallery">Gallery</Link></div>
         </div>
         <div className='col-span-2 flex flex-col gap-[14]  max-[1400]:col-span-3 max-[1000]:col-span-6 max-[1000]:mt-10 max-[550]:col-span-12'>
-          <div className="text-[20px] whitespace-nowrap  mb-[10]"><Link href="/contact" onClick={() => { window.scrollTo({ top: 0 }) }}>Contact Us</Link></div>
+          <div className="text-[20px] font-bold whitespace-nowrap  mb-[10]"><Link href="/contact" onClick={() => { window.scrollTo({ top: 0 }) }}>Contact Us</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/contact/#Information">Information</Link></div>
           <div className="text-[20px] whitespace-nowrap text-Grey-20 mb-[10]"><Link href="/contact/#Information">Map & Direction</Link></div>
         </div>
