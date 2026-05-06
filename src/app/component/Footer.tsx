@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 function Footer() {
   return (
-    <div className='bg-white border rounded-2xl pt-25 px-[113] pb-12.5 mt-50 mb-12.5 shadow-[6px_6px_0px_2px_#1E1E1E] max-[1650]:px-[60]'>
+    <div className='bg-white border rounded-2xl pt-25 px-[113] pb-12.5 mt-50 mb-12.5 shadow-[6px_6px_0px_2px_#1E1E1E] max-[1650]:px-[60] max-[500]:px-2'>
       <div className='grid grid-cols-12'>
         <div className='col-span-4 flex flex-col gap-12.5 max-[1400]:col-span-12 max-[1400]:mb-10'>
           <div className=" flex flex-col gap-6">

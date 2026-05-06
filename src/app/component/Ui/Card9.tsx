@@ -39,7 +39,7 @@ function Card9({ imgs, title, text }: Props) {
     
     return (
         <div className="relative">
-            <div className="w-full flex justify-around absolute -top-1/4 max-[800]:-top-1/5">
+            <div className="w-full flex justify-around absolute -top-1/4 max-[800]:-top-1/5 max-[450]:-top-1/6">
                 {Array.from({length:show}).map((_, i) => {
                     const Cardnum = (index + i) % imgs.length
                     return (

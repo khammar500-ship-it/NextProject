@@ -13,7 +13,7 @@ function Card10({ title1, title2, text }: props) {
                 </div>
             </div>
             <div className=" border rounded-2xl relative z-1 bg-white h-3/5 p-8 shadow-[4px_4px_0px_1px_#1E1E1E]">
-                <div className="text-[40px] font-bold whitespace-nowrap max-[1600]:text-[30px]">{title2}</div>
+                <div className="text-[40px] font-bold whitespace-nowrap max-[1600]:text-[30px]  max-[500]:text-[20px]">{title2}</div>
                 <div className="text-Grey-30 text-[16px]">{text}</div>
             </div>
         </div>
